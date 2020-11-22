@@ -16,7 +16,7 @@ The resulting model enables the user to predict the price of a house by giving d
 
 The data dictionary is available [here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
 
-Data used in the analysis has been sourced from [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge)
+Data used in the analysis has been sourced from [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge).
 
 
 ## Conclusion:
