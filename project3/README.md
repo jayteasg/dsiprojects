@@ -1,8 +1,8 @@
 ## Problem Statement.
-I am one of the moderators for a Spirituality discussion forum. The forum is focused on the subject of Spirituality but there have been frequent postings from religious groups that try to disrupt the discussion and we have received feedback from our senior forum members to remove such postings. However, there are hundreds of postings each day and we will need to develop a quick way to identify such posts and remove them quickly.
+The moderators for a Spirituality discussion forum have approached me to help them sieve out unwanted posts. The forum is focused on the subject of Spirituality but there have been frequent postings from religious groups that try to disrupt the discussion and we have received feedback from our senior forum members to remove such postings. However, there are hundreds of postings each day and we will need to develop a quick way to identify such posts and remove them quickly.
 
 ### Stakeholders:
-Readers of our forum who are interested in the subject of Spirituality.
+Moderators of the Spirituality forum.
 
 ### Approach:
 Using classification models such as Logistic Regression, Naive Bayes, KNN and DecisionTrees, correctly predict whether a post belongs to Spirituality or Religion. Data will be scrapped from reddit.com, using subreddits /r/spirituality and /r/religion. A classification model will be trained to predict Spirituality as the positive class and top prediction features will be identified.
