@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="windlag1 <= -0.27\ngini = 0.5\nsamples = 7910\nvalue = [6148, 6256]\nclass = Wnv present", fillcolor="#fcfdff"] ;
+1 [label="species_no <= -1.14\ngini = 0.46\nsamples = 4754\nvalue = [2673, 4810]\nclass = Wnv present", fillcolor="#a7d3f3"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="templag1 <= 1.37\ngini = 0.03\nsamples = 469\nvalue = [728, 12]\nclass = Wnv NOT present", fillcolor="#e5833c"] ;
+1 -> 2 ;
+3 [label="gini = 0.02\nsamples = 437\nvalue = [683, 8]\nclass = Wnv NOT present", fillcolor="#e5823b"] ;
+2 -> 3 ;
+4 [label="gini = 0.15\nsamples = 32\nvalue = [45, 4]\nclass = Wnv NOT present", fillcolor="#e78c4b"] ;
+2 -> 4 ;
+5 [label="templag2 <= -0.11\ngini = 0.41\nsamples = 4285\nvalue = [1945, 4798]\nclass = Wnv present", fillcolor="#89c5f0"] ;
+1 -> 5 ;
+6 [label="gini = 0.45\nsamples = 743\nvalue = [769, 403]\nclass = Wnv NOT present", fillcolor="#f3c3a1"] ;
+5 -> 6 ;
+7 [label="gini = 0.33\nsamples = 3542\nvalue = [1176, 4395]\nclass = Wnv present", fillcolor="#6eb7ec"] ;
+5 -> 7 ;
+8 [label="windlag2 <= 0.03\ngini = 0.41\nsamples = 3156\nvalue = [3475, 1446]\nclass = Wnv NOT present", fillcolor="#f0b58b"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="templag3 <= -0.71\ngini = 0.5\nsamples = 1453\nvalue = [1212, 1068]\nclass = Wnv NOT present", fillcolor="#fcf0e7"] ;
+8 -> 9 ;
+10 [label="gini = 0.06\nsamples = 190\nvalue = [284, 9]\nclass = Wnv NOT present", fillcolor="#e6853f"] ;
+9 -> 10 ;
+11 [label="gini = 0.5\nsamples = 1263\nvalue = [928, 1059]\nclass = Wnv present", fillcolor="#e7f3fc"] ;
+9 -> 11 ;
+12 [label="windlag1 <= 1.07\ngini = 0.25\nsamples = 1703\nvalue = [2263, 378]\nclass = Wnv NOT present", fillcolor="#e9965a"] ;
+8 -> 12 ;
+13 [label="gini = 0.3\nsamples = 1140\nvalue = [1419, 323]\nclass = Wnv NOT present", fillcolor="#eb9e66"] ;
+12 -> 13 ;
+14 [label="gini = 0.11\nsamples = 563\nvalue = [844, 55]\nclass = Wnv NOT present", fillcolor="#e78946"] ;
+12 -> 14 ;
+}
