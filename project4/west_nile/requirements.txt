@@ -1,4 +1,0 @@
-suntime
-geopy
-geopy
-seaborn==0.11.0
